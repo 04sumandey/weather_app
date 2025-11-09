@@ -13,7 +13,6 @@ const handleResponse = async (response: Response) => {
 
 const buildUrl = (endpoint: string, city?: string, lat?: number, lon?: number, unit: Unit = 'metric') => {
     if (!API_KEY) {
-        console.log("VITE_OPENWEATHER_API_KEY : ", API_KEY)
         throw new Error("OpenWeatherMap API key is missing. Please add VITE_OPENWEATHER_API_KEY to your .env file.");
     }
     const params = new URLSearchParams({
