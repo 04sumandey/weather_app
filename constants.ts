@@ -1,7 +1,4 @@
 
-export const API_BASE_URL = 'https://api.openweathermap.org/data/2.5';
-export const GEO_API_BASE_URL = 'https://api.openweathermap.org/geo/1.0';
-
 export const BG_MAP: { [key: string]: string } = {
     'Clear': 'from-sky-400 to-blue-600 bg-gradient-to-br',
     'Clouds': 'from-slate-400 to-gray-600 bg-gradient-to-br',
