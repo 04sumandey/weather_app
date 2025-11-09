@@ -1,0 +1,8 @@
+
+{
+  "name": "React Weather App",
+  "description": "A sleek, modern weather application built with React, TypeScript, and Tailwind CSS. It provides current weather conditions, a 3-day forecast, and features like city search, unit conversion, and automatic local weather detection via geolocation.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
